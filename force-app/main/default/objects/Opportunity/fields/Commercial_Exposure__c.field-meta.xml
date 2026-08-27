@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commercial_Exposure__c</fullName>
+    <label>Commercial Exposure</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Completing agreed deliverables</fullName>
+                <default>false</default>
+                <label>Completing agreed deliverables</label>
+            </value>
+            <value>
+                <fullName>Usage &amp; adoption</fullName>
+                <default>false</default>
+                <label>Usage &amp; adoption</label>
+            </value>
+            <value>
+                <fullName>Solution drives value</fullName>
+                <default>false</default>
+                <label>Solution drives value</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
